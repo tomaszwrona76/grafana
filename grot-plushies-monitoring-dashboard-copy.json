@@ -66,7 +66,7 @@
           "description": "",
           "id": 1,
           "links": [],
-          "title": "Total RPS",
+          "title": "Total RPS Title",
           "vizConfig": {
             "group": "stat",
             "kind": "VizConfig",
@@ -1527,7 +1527,20 @@
         ]
       }
     },
-    "links": [],
+    "links": [
+      {
+        "asDropdown": false,
+        "icon": "external link",
+        "includeVars": false,
+        "keepTime": false,
+        "tags": [],
+        "targetBlank": true,
+        "title": "Source (GitHub)",
+        "tooltip": "View source file in repository",
+        "type": "link",
+        "url": "https://github.com/tomaszwrona76/grafana/blob/main/grot-plushies-monitoring-dashboard-copy.json"
+      }
+    ],
     "liveNow": false,
     "preferences": {
       "layout": {
